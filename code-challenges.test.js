@@ -124,7 +124,7 @@ Function Parameter(s): 1, arr
 input 1: an array of mixed data types
 output 1: an array of numbers
 --------- STEPS/METHODS:
-1. In order to get an array with only numbers, I'm going to use .filter() to check for integers.
+1. In order to get an array with only numbers, I'm going to use .filter() to check for integers. Filter has a built-in if statement AND an explicit return if the logic can be completed on a single line, so I'm just going to return any elements that have the typeof number.
 2. Then, once I have an array of integers, I'll use map to return an array of the same length with all of the elements % 3.
 
 */
@@ -179,7 +179,7 @@ output 1: integer
 // After creating the above function, I realized that I could simply use value ** 3 instead of creating a function to perform v * v * v. It's been a long day. 😅
 
 const sumCubed = (arr) => {
-  return arr.map((v) => v ** 3).reduce((fir, sec) => fir + sec);
+  return arr.map((v) => v ** 3).reduce((val, nextval) => val + nextval);
 };
 
 // -------------------------------------------- RESULTS:
