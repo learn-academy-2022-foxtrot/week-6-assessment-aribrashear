@@ -47,7 +47,7 @@ output 1: an array using string interpolation to make the object key:value pair 
 
 // -------------------------------------------- INITIAL ATTEMPTS
 // -----------------------------------
-// I did a lot of practicing and testing with this in order to access the nested values. I knew what I needed to do to both access the data and capitalize it, but I started to overthink it once I attempted to create a function that would capitalize the word inside of the original function. After this, I decided to step back for a minute and then take another look at it, which resulted in the code underneath this one. I initially thought you couldn't use logic inside of string interpolation, and I knew that you COULD call a function, but it slipped my mind that HOF's are........ Well. They're functions. 😅 (It also turns out that I was probably wrong about using logic in string interpolation, my research on that has been a bit shaky.)
+// I did a lot of practicing and testing with this in order to access the nested values. I knew what I needed to do to both access the data and capitalize it, but I started to overthink it once I attempted to create a function that would capitalize the word inside of the original function. After this, I decided to step back for a minute and then take another look at it, which resulted in the code underneath this one. I initially thought you couldn't use logic inside of string interpolation, and I knew that you COULD call a function, but it slipped my mind that HOF's are........ Well. They're functions. 😅 (It also turns out that I was probably wrong about using logic inside a template literal, my research on that has been a bit shaky.)
 
 // const objectValInterpolation = (arr) => {
 //   return arr.map((val) => {
